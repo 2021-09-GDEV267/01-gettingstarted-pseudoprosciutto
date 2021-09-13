@@ -11,9 +11,11 @@ public class PlayerController : MonoBehaviour
 
     float movementX;
     float movementY;
-    int count;
+
+    private int count;
 
     public float speed = 0; //public to be accessed in editor
+    public int scoreToWin = 5;
 
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
@@ -30,7 +32,7 @@ public class PlayerController : MonoBehaviour
     {
         countText.text = "Count: " + count.ToString();
 
-        if (count >= 12)
+        if (count >= scoreToWin)
         {
             // Set the text value of your 'winText'
             winTextObject.SetActive(true);
