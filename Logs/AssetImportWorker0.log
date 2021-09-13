@@ -1015,3 +1015,42 @@ System memory in use after: 215.1 MB.
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3591.
 Total: 7.887954 ms (FindLiveObjects: 0.581304 ms CreateObjectMapping: 0.257573 ms MarkObjects: 6.642245 ms  DeleteObjects: 0.404917 ms)
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.9 MB.
+System memory in use after: 155.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3591.
+Total: 7.475707 ms (FindLiveObjects: 0.408172 ms CreateObjectMapping: 0.240786 ms MarkObjects: 6.290404 ms  DeleteObjects: 0.534614 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4194.917607 seconds.
+  path: Assets/Materials/Pickups.mat
+  artifactKey: Guid(3c8be6d001a9246d8a4d61ab46e2e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pickups.mat using Guid(3c8be6d001a9246d8a4d61ab46e2e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cc1ce58dcd3bf60f300ca310664557') in 0.340201 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002003 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Desktop/School Work/GameDesign 267/01-gettingstarted-pseudoprosciutto/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Desktop/School Work/GameDesign 267/01-gettingstarted-pseudoprosciutto/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.858 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2989 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.0 MB.
+System memory in use after: 215.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3595.
+Total: 6.575552 ms (FindLiveObjects: 0.401052 ms CreateObjectMapping: 0.265053 ms MarkObjects: 5.490450 ms  DeleteObjects: 0.416428 ms)
+

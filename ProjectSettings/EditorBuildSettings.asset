@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RollABall Lesson.unity
+    guid: 246c2b49f7bf7416e9a789dea0df15d5
   m_configObjects: {}

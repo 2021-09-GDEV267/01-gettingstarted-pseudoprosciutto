@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     float movementX;
     float movementY;
 
-    private int count;
+    private int count; 
 
     public float speed = 0; //public to be accessed in editor
     public int scoreToWin = 5;
